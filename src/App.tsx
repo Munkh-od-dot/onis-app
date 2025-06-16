@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import "./App.css"
 import { Route, Routes } from "react-router-dom";
 import Tuhuurumj from "./pages/tuhuurumj";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -9,8 +10,8 @@ function App() {
       < Navbar />
       <Routes>
         <Route path="/tuhuurumj" element={<Tuhuurumj />} />
-      </Routes>      <h1>Hello React App!</h1>
-      <p>Starting from clean project 🚀</p>
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }

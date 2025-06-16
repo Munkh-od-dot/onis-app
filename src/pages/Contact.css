@@ -1,0 +1,31 @@
+.contact-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contact-info {
+  flex: 1 1 400px;
+  max-width: 600px;
+}
+
+.contact-info h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-map {
+  flex: 1 1 400px;
+  max-width: 600px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}

@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
         <li><Link to="/tuhuurumj">Төхөөрөмж</Link></li>
         <li>Мэдээлэл</li>
         <li>Түгээмэл асуултууд</li>
-        <li>Холбоо барих</li>
+        <li><Link to="/Contact">Холбоо барих</Link></li>
       </ul>
     </nav>
   );
