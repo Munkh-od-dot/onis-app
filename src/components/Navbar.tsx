@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
         <img src={logo} alt="Logo" />
       </div>
       <ul className="navbar-links">
-        <li><Link to="/product">Бүтээгдэхүүн</Link></li>
+        <li><Link to="/">Бүтээгдэхүүн</Link></li>
         <li><Link to="/tuhuurumj">Төхөөрөмж</Link></li>
         <li>Мэдээлэл</li>
         <li><Link to="/Faq">Түгээмэл асуултууд</Link></li>
