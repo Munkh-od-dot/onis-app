@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import logo from '../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   return (
@@ -9,11 +10,11 @@ const Navbar: React.FC = () => {
         <img src={logo} alt="Logo" />
       </div>
       <ul className="navbar-links">
-        <li><a href="#">Бүтээгдэхүүн</a></li>
-        <li><a href="#">Төхөөрөмж</a></li>
-        <li><a href="#">Мэдээлэл</a></li>
-        <li><a href="#">Түгээмэл асуултууд</a></li>
-        <li><a href="#">Холбоо барих</a></li>
+        <li>Бүтээгдэхүүн</li>
+        <li><Link to="/tuhuurumj">Төхөөрөмж</Link></li>
+        <li>Мэдээлэл</li>
+        <li>Түгээмэл асуултууд</li>
+        <li>Холбоо барих</li>
       </ul>
     </nav>
   );

@@ -1,0 +1,19 @@
+.DeviceCard img {
+  width: 510px;
+  height: 270px;
+  object-fit: contain;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto 12px auto;
+}
+
+.DeviceCard {
+  width: 510px;
+  height: auto;
+  margin: auto;
+  border: 1px solid #2b6eda;
+  padding: 16px;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+}
