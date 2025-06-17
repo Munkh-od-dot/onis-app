@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Navbar.css';
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-logo">
         <img src={logo} alt="Logo" />
       </div>

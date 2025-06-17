@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import './HeroSlider.css';
 
 const banners = [
-  '/product_img/banner1.jpg',
-  '/product_img/banner2.jpg',
-  '/product_img/banner3.jpg',
-  '/product_img/banner4.jpg',
-  '/product_img/banner5.jpg',
-  '/product_img/banner6.jpg',
+  '/bg_img/onisshop_bg.jpg',
+  '/bg_img/onisplus_bg.jpg',
+  '/bg_img/onispos_bg.jpg',
+  '/bg_img/onistoollogo_bg.jpg',
+  '/bg_img/onisfood_bg1.png',
+  '/bg_img/onisservice.png',
 ];
 
 const HeroSlider: React.FC = () => {
